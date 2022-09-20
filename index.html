@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <script src="https://kit.fontawesome.com/d3338572b4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css"
+    integrity="sha512-RvQxwf+3zJuNwl4e0sZjQeX7kUa3o82bDETpgVCH2RiwYSZVDdFJ7N/woNigN/ldyOOoKw8584jM4plQdt8bhA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav class="navBar">
+        <div class="logo-img">
+          <img src="images/logo.svg" alt="">
+        </div>
+        <div class="menu-navBar">
+          <div class="menu-navBar-features">Features
+            <div class="menu-navBar-features-popup">
+              <div><img src="images/icon-todo.svg" alt="">&nbsp&nbspTodo List</div>
+              <div><img src="images/icon-calendar.svg" alt="">&nbsp&nbspCalendar</div>
+              <div><img src="images/icon-reminders.svg" alt="">&nbsp&nbspReminders</div>
+              <div><img src="images/icon-planning.svg" alt="">&nbsp&nbspplanning</div>
+            </div>
+          </div>
+          <div class="menu-navBar-company">Company
+            <div class="menu-navBar-company-popup">
+              <div>History</div>
+              <div>Our Team</div>
+              <div>Blog</div>
+            </div>
+          </div>
+          <a href="#">Careers</a>
+          <a href="#">About</a>
+        </div>
+        <div class="menu-login">
+          <div class="menu-login-btn">Login</div>
+          <div class="menu-login-register">Register</div>
+        </div>
+        <div class="menu-mobile">
+          <img class="open-menu" src="images/icon-menu.svg" alt="">
+          <div class="menu-mobile-toggle">
+            <div class="close-menu">
+              <img class="close-menu-toggle" src="images/icon-close-menu.svg" alt="">
+            </div>
+            <div class="menu-mobile-toggle-list">
+              <div class="menu-mobile-features">Features
+                <div class="menu-mobile-features-popup">
+                  <div><img src="images/icon-todo.svg" alt="">&nbsp&nbspTodo List</div>
+                  <div><img src="images/icon-calendar.svg" alt="">&nbsp&nbspCalendar</div>
+                  <div><img src="images/icon-reminders.svg" alt="">&nbsp&nbspReminders</div>
+                  <div><img src="images/icon-planning.svg" alt="">&nbsp&nbspplanning</div>
+                </div>
+              </div>
+              <div class="menu-mobile-company">Company
+                <div class="menu-mobile-company-popup">
+                  <div>History</div>
+                  <div>Our Team</div>
+                  <div>Blog</div>
+                </div>
+              </div>
+              <a href="#">Careers</a>
+              <a href="#">About</a>
+
+              <div class="menu-mobile-login">
+                <div class="menu-login-btn">Login</div>
+                <div class="menu-login-register">Register</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="main-content">
+        <div class="main-content-left">
+          <h1>Make remote work</h1>
+          <p>Get your team in sync, no matter your location. Streamline processes,
+            create team rituals, and watch productivity soar.</p>
+          <button>Learn more</button>
+          <div class="main-content-left-icons">
+            <img src="images/client-databiz.svg" alt="">
+            <img src="images/client-audiophile.svg" alt="">
+            <img src="images/client-meet.svg" alt="">
+            <img src="images/client-maker.svg" alt="">
+          </div>
+        </div>
+        <div class="main-content-right">
+          <img src="images/image-hero-desktop.png" alt="">
+          <img src="images/image-hero-mobile.png" alt="">
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">MaxSurawut</a>.
+  </div>
+</body>
+
+</html>
